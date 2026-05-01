@@ -12,10 +12,10 @@ out/
 .DS_Store
 
 # Internal build/source materials not needed in the public repo
-WWS_Approved_Copy.md
-WWS_Cursor_Build_Spec.md
-Whirlwind Services Basic Branding Guide.pdf
-Logo.png
-Flavicon_Icon only.png
-Icons/
-Image assets/
+/WWS_Approved_Copy.md
+/WWS_Cursor_Build_Spec.md
+/Whirlwind Services Basic Branding Guide.pdf
+/Logo.png
+/Flavicon_Icon only.png
+/Icons/
+/Image assets/
