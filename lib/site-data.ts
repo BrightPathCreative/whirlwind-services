@@ -263,3 +263,76 @@ export const globalFaqs = [
   ["Do you offer ongoing support or one-off assistance?", "Both. Cath works across ongoing engagements, project-based work, and ad-hoc one-off assistance."],
   ["What makes Whirlwind different from a virtual assistant service?", "Virtual assistant services typically offer a pool of contractors who handle defined, repeatable tasks. Whirlwind is different because you work directly with Cath, a senior executive assistant with 45 years of judgement and experience."]
 ];
+
+export const locationPages = [
+  {
+    slug: "brighton",
+    title: "Executive Support Services Brighton",
+    area: "Brighton",
+    nearby: "Hampton, Elwood, Elsternwick, Sandringham, and the wider Bayside area",
+    metaTitle: "Executive Support Services Brighton",
+    metaDescription:
+      "Local executive and administrative support in Brighton from Whirlwind Secretarial Services. On-site or remote support from Cath Watkins.",
+    intro:
+      "Whirlwind Secretarial Services is based in Brighton, making it especially practical for local businesses, clinics, consultants, community organisations, and professional offices that need senior support close by.",
+    localFit:
+      "For Brighton businesses, proximity matters. Cath can work on-site for time-sensitive admin, diary support, meetings, document preparation, event coordination, or records projects, while also handling ongoing work remotely when that is more efficient.",
+    image: "/images/sections/melbourne-bayside.png"
+  },
+  {
+    slug: "melbourne-cbd",
+    title: "Executive Assistant Services Melbourne CBD",
+    area: "Melbourne CBD",
+    nearby: "Southbank, Docklands, South Melbourne, Port Melbourne, and inner Melbourne",
+    metaTitle: "Executive Assistant Services Melbourne CBD",
+    metaDescription:
+      "Senior executive assistant and administrative support for Melbourne CBD businesses. On-site or remote support from Whirlwind Services.",
+    intro:
+      "Cath has spent decades supporting senior executives, government leaders, commissioners, CEOs, and consulting firms, making Whirlwind a strong fit for Melbourne CBD businesses that need calm, experienced administrative support.",
+    localFit:
+      "For city-based offices, Cath can step into executive assistance, meeting coordination, event support, minutes, travel planning, reporting, correspondence, and structured project administration without needing extensive hand-holding.",
+    image: "/images/sections/meeting-room.png"
+  },
+  {
+    slug: "hampton-sandringham",
+    title: "Administrative Support Hampton & Sandringham",
+    area: "Hampton & Sandringham",
+    nearby: "Brighton, Black Rock, Beaumaris, Highett, and Bayside Melbourne",
+    metaTitle: "Administrative Support Hampton & Sandringham",
+    metaDescription:
+      "Experienced administrative and executive support for Hampton and Sandringham businesses. On-site or remote services from Whirlwind.",
+    intro:
+      "Businesses in Hampton and Sandringham often need practical, flexible support without taking on a permanent hire. Whirlwind gives local teams access to Cath's senior administrative experience as needed.",
+    localFit:
+      "Cath can support local businesses with diary and email management, event coordination, records and database clean-up, document preparation, spreadsheet work, and general office tasks that need a reliable pair of hands.",
+    image: "/images/sections/organised-workspace.png"
+  },
+  {
+    slug: "st-kilda-elwood",
+    title: "Executive & Admin Support St Kilda and Elwood",
+    area: "St Kilda & Elwood",
+    nearby: "Brighton, Elsternwick, Melbourne CBD, South Melbourne, and Bayside",
+    metaTitle: "Executive & Admin Support St Kilda and Elwood",
+    metaDescription:
+      "Flexible executive and administrative support for St Kilda and Elwood businesses from Whirlwind Secretarial Services.",
+    intro:
+      "Whirlwind supports St Kilda and Elwood businesses that need experienced administrative help without the overhead of a full-time executive assistant or office manager.",
+    localFit:
+      "Whether the work is on-site, remote, or a mix of both, Cath can help with executive assistance, meeting and event logistics, documents, electronic communications, data clean-up, and ad-hoc office support.",
+    image: "/images/sections/calendar-planning.png"
+  },
+  {
+    slug: "bentleigh-elsternwick",
+    title: "Administrative Support Bentleigh & Elsternwick",
+    area: "Bentleigh & Elsternwick",
+    nearby: "Bentleigh East, Carnegie, Caulfield, Ormond, Brighton, and Bayside",
+    metaTitle: "Administrative Support Bentleigh & Elsternwick",
+    metaDescription:
+      "Senior administrative support for Bentleigh and Elsternwick businesses. Flexible executive, office, document, and records support.",
+    intro:
+      "Whirlwind provides experienced administrative support to Bentleigh and Elsternwick businesses that need structure, momentum, and confidentiality without adding permanent headcount.",
+    localFit:
+      "Cath can help with overflowing inboxes, complex calendars, reports, spreadsheets, event coordination, records management, data cleaning, office processes, and the varied administrative tasks that slow teams down.",
+    image: "/images/sections/documents-data.png"
+  }
+];

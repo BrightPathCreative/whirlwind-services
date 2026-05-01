@@ -4,7 +4,7 @@ import { CTASection } from "@/components/CTASection";
 import { PageHero } from "@/components/PageHero";
 import { SectionReveal } from "@/components/SectionReveal";
 import { createMetadata } from "@/lib/metadata";
-import { servicePages } from "@/lib/site-data";
+import { locationPages, servicePages } from "@/lib/site-data";
 
 const suburbs = [
   "Brighton",
@@ -82,6 +82,26 @@ export default function BaysideMelbournePage() {
             Travel outside this area is available at an additional cost. Remote services are
             available to anyone, regardless of location.
           </p>
+        </div>
+      </section>
+
+      <section className="section" style={{ background: "var(--color-light-grey)" }}>
+        <div className="section-inner copy-stack">
+          <SectionReveal>
+            <p className="eyebrow">Local Area Pages</p>
+            <h2>Focused support pages for key service areas.</h2>
+          </SectionReveal>
+          <div className="service-grid">
+            {locationPages.map((location, index) => (
+              <SectionReveal className="feature-card" delay={index * 0.04} key={location.slug}>
+                <h3>{location.area}</h3>
+                <p>{location.metaDescription}</p>
+                <Link className="learn-link" href={`/locations/${location.slug}`}>
+                  View local page <span aria-hidden="true">→</span>
+                </Link>
+              </SectionReveal>
+            ))}
+          </div>
         </div>
       </section>
 
