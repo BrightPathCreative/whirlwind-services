@@ -72,13 +72,14 @@ export default function HomePage() {
             <p className="eyebrow">Services</p>
             <h2>What Whirlwind Services Can Do for You</h2>
           </SectionReveal>
-          <div className="service-grid">
+          <div className="service-grid service-grid-featured">
             {servicePages.map((service, index) => (
               <SectionReveal delay={index * 0.06} key={service.slug}>
                 <ServiceCard
                   description={service.description}
                   href={`/services/${service.slug}`}
                   icon={service.icon}
+                  image={service.image}
                   title={service.title}
                 />
               </SectionReveal>

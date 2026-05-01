@@ -469,6 +469,16 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.service-grid-featured {
+  align-items: stretch;
+  gap: 1rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.service-grid-featured > div {
+  height: 100%;
+}
+
 .service-card,
 .trust-card,
 .feature-card,
@@ -483,6 +493,49 @@ p {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
+.service-card {
+  gap: 0;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.service-card-media {
+  aspect-ratio: 4 / 3;
+  background: var(--color-sage-10);
+  overflow: hidden;
+  position: relative;
+}
+
+.service-card-media > img:first-child {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 320ms ease;
+  width: 100%;
+}
+
+.service-card:hover .service-card-media > img:first-child {
+  transform: scale(1.04);
+}
+
+.service-card-body {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-rows: auto 1fr auto;
+  padding: 1.15rem;
+}
+
+.service-card-body h3 {
+  font-size: clamp(1.05rem, 1.25vw, 1.3rem);
+  letter-spacing: -0.025em;
+}
+
+.service-card-body p {
+  font-size: 0.98rem;
+  line-height: 1.62;
+}
+
 .service-card:hover,
 .trust-card:hover,
 .feature-card:hover {
@@ -494,6 +547,14 @@ p {
   background: var(--color-sage-10);
   border-radius: 18px;
   padding: 0.6rem;
+}
+
+.service-icon-float {
+  background: rgba(255, 255, 255, 0.92);
+  bottom: 0.85rem;
+  box-shadow: 0 12px 30px rgba(36, 36, 36, 0.14);
+  left: 0.85rem;
+  position: absolute;
 }
 
 .learn-link {
