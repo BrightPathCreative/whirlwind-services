@@ -271,6 +271,49 @@ p {
   color: var(--color-emerald);
 }
 
+.back-to-top {
+  align-items: center;
+  background: var(--color-emerald);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 999px;
+  bottom: 1.25rem;
+  box-shadow: 0 18px 36px rgba(6, 95, 70, 0.28);
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  gap: 0.38rem;
+  letter-spacing: 0.14em;
+  opacity: 0;
+  padding: 0.78rem 0.92rem;
+  pointer-events: none;
+  position: fixed;
+  right: 1.25rem;
+  text-transform: uppercase;
+  transform: translateY(14px) scale(0.96);
+  transition: opacity 220ms ease, transform 220ms ease, background 220ms ease;
+  z-index: 45;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.back-to-top:hover {
+  background: var(--color-sage);
+  color: var(--color-charcoal);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.back-to-top:focus-visible {
+  outline: 3px solid var(--color-sage-light);
+  outline-offset: 4px;
+}
+
 .section {
   padding: clamp(4.5rem, 10vw, 8rem) clamp(1rem, 4vw, 2rem);
 }
@@ -777,6 +820,11 @@ p {
 
   .hero-image-shell {
     min-height: 480px;
+  }
+
+  .back-to-top {
+    bottom: 0.85rem;
+    right: 0.85rem;
   }
 
   .service-grid,

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Quicksand } from "next/font/google";
+import { BackToTop } from "@/components/BackToTop";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={quicksand.variable}>
         <Navbar />
         <main id="main-content">{children}</main>
+        <BackToTop />
         <Footer />
         <SchemaMarkup />
       </body>
