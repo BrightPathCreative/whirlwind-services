@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { site } from "@/lib/site-data";
 
 type CTASectionProps = {
   heading?: string;
@@ -18,11 +17,8 @@ export function CTASection({
         <p>{body}</p>
         <div className="button-row">
           <Link className="button button-light" href="/contact">
-            Get in Touch
+            Go to Contact Form
           </Link>
-          <a className="cta-email" href={`mailto:${site.email}`}>
-            {site.email}
-          </a>
         </div>
       </div>
     </section>

@@ -13,7 +13,6 @@ export const site = {
   name: "Whirlwind Secretarial Services",
   shortName: "Whirlwind Services",
   domain: "https://whirlwindservices.com.au",
-  email: "cath@whirlwindservices.com.au",
   linkedin: "https://www.linkedin.com/in/cath-watkins-730329242/",
   abn: "44 233 892 479",
   tagline: "Admin support without the full-time hire and agency fees",
@@ -66,7 +65,7 @@ export const servicePages = [
       ["What's the difference between an executive assistant and a virtual assistant?", "A virtual assistant typically handles defined, repeatable tasks, often for multiple clients at once. An executive assistant works directly with one person or organisation, understands the business deeply, and provides senior-level support that requires experience and judgement."],
       ["Do you work on-site or remotely?", "Both. Cath is available on-site at your premises across Melbourne CBD and Bayside Melbourne, and remotely for clients anywhere."],
       ["How much does an executive assistant cost in Melbourne?", "Whirlwind's pricing is based on the scope and complexity of the engagement. Daily rates, project-based pricing, and hourly rates are available depending on the nature of the work."],
-      ["How do I get started?", "The best first step is a conversation. Get in touch via the contact form, or email cath@whirlwindservices.com.au. Cath will then call you to discuss what you need and how she can help."]
+      ["How do I get started?", "The best first step is a conversation. Get in touch via the contact form. Cath will then contact you to discuss what you need and how she can help."]
     ]
   },
   {
@@ -256,7 +255,7 @@ export const globalFaqs = [
   ["Do you work on-site or remotely?", "Both. Cath works on-site at clients' premises across Melbourne CBD and Bayside Melbourne, approximately within a 10km radius of Brighton. She also works remotely for clients anywhere."],
   ["What areas do you service?", "Whirlwind's primary service area is Melbourne CBD and Bayside Melbourne, including Brighton, Hampton, Sandringham, Bentleigh, Elsternwick, St Kilda, and surrounding suburbs. Travel outside this area is available at an additional cost."],
   ["How much does Whirlwind charge?", "Pricing is based on the scope, complexity, and duration of the engagement. Daily rates, project-based pricing, and hourly rates are available depending on the nature of the work."],
-  ["How do I get started? What's the process?", "The best first step is a conversation. Get in touch via the contact form on this website, or email Cath directly. If it looks like a good fit, she'll put together a scope of work and quote for your review."],
+  ["How do I get started? What's the process?", "The best first step is a conversation. Get in touch via the contact form on this website. If it looks like a good fit, Cath will put together a scope of work and quote for your review."],
   ["What industries do you work with?", "Cath has worked across government, private consulting, not-for-profit, and small-to-medium business. Her expertise is executive-level administration, which translates across sectors."],
   ["How do I pay?", "Invoices are issued via Xero. Payment is due on receipt of invoice unless alternative terms have been agreed in advance. Bank transfer is the preferred payment method."],
   ["What is your availability?", "Availability varies depending on current engagements. The best way to find out whether Cath is available is to get in touch and she will give you a straight answer about her capacity."],

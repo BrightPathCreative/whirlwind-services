@@ -15,7 +15,7 @@ const sections = [
   ["Termination", "Either party may terminate an engagement by providing reasonable written notice. Any work completed up to the date of termination will be invoiced and payable."],
   ["Governing Law", "These Terms of Service are governed by the laws of the State of Victoria, Australia."],
   ["Changes to These Terms", "Whirlwind may update these Terms of Service from time to time. Any changes will be posted on this page."],
-  ["Contact", `Cath Watkins | Whirlwind Secretarial Services | ${site.email}`]
+  ["Contact", "Cath Watkins | Whirlwind Secretarial Services | Please use the website contact form."]
 ];
 
 export const metadata = createMetadata({

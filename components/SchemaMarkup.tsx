@@ -14,7 +14,6 @@ export function SchemaMarkup({ data }: SchemaMarkupProps) {
       description:
         "Senior executive and administrative support services across Melbourne CBD and Bayside Melbourne.",
       url: site.domain,
-      email: site.email,
       areaServed: ["Melbourne", "Bayside Melbourne", "Brighton"],
       founder: {
         "@type": "Person",

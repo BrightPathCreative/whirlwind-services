@@ -16,7 +16,7 @@ const sections = [
   ["Data Breaches", "In the event of a data breach likely to cause serious harm, we will notify affected individuals and the OAIC as required."],
   ["Complaints", "If you have a privacy concern, please contact us. We will respond within 30 days."],
   ["Changes to This Policy", "We may update this policy from time to time. Updates will be published on this page."],
-  ["Contact", `Cath Watkins | Whirlwind Secretarial Services | ${site.email}`]
+  ["Contact", "Cath Watkins | Whirlwind Secretarial Services | Please use the website contact form."]
 ];
 
 export const metadata = createMetadata({

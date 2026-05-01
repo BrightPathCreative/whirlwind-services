@@ -40,7 +40,7 @@ export function Footer() {
 
         <div>
           <h2>Contact</h2>
-          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <Link href="/contact">Contact form</Link>
           <p>Based in Brighton, Victoria.</p>
           <a className="social-link" href={site.linkedin} rel="noreferrer" target="_blank">
             <span className="social-badge">in</span>

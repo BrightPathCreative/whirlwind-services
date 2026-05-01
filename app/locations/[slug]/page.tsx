@@ -104,7 +104,6 @@ export default async function LocationPage({ params }: LocationPageProps) {
           "@type": "ProfessionalService",
           name: site.name,
           url: `${site.domain}/locations/${location.slug}`,
-          email: site.email,
           areaServed: location.area,
           founder: {
             "@type": "Person",

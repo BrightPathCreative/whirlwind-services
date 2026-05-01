@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Mail, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { SectionReveal } from "@/components/SectionReveal";
 import { createMetadata } from "@/lib/metadata";
@@ -35,10 +35,7 @@ export default function ContactPage() {
               There&apos;s no commitment involved in a first conversation — just a chance to talk
               through what you need and work out whether Whirlwind can help.
             </p>
-            <a className="social-link" href={`mailto:${site.email}`}>
-              <Mail size={18} />
-              {site.email}
-            </a>
+            <p>Please use the contact form and Cath will respond as soon as she can.</p>
             <a className="social-link" href={site.linkedin} rel="noreferrer" target="_blank">
               <span className="social-badge">in</span>
               LinkedIn
