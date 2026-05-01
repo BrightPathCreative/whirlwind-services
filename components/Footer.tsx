@@ -50,7 +50,12 @@ export function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© 2026 Whirlwind Secretarial Services | ABN {site.abn}</span>
-        <span>Website by Bright Path Creative</span>
+        <span>
+          Website by{" "}
+          <a href="https://www.brightpathcreative.com.au" rel="noreferrer" target="_blank">
+            Bright Path Creative
+          </a>
+        </span>
       </div>
     </footer>
   );
