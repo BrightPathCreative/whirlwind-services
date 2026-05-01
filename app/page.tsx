@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { SectionReveal } from "@/components/SectionReveal";
@@ -16,7 +15,7 @@ export const metadata = createMetadata({
 export default function HomePage() {
   return (
     <>
-      <section className="hero">
+      <section className="hero home-hero">
         <div className="hero-content">
           <SectionReveal>
             <p className="eyebrow">Whirlwind Secretarial Services</p>
@@ -33,7 +32,7 @@ export default function HomePage() {
           <SectionReveal delay={0.28}>
             <div className="button-row">
               <Link className="button button-primary" href="/contact">
-                Get in Touch
+                Go to Contact Form
               </Link>
               <Link className="button button-outline" href="/services">
                 Explore Services
@@ -41,16 +40,6 @@ export default function HomePage() {
             </div>
           </SectionReveal>
         </div>
-
-        <SectionReveal className="hero-image-shell" delay={0.12}>
-          <Image
-            alt="Cath Watkins seated in a bright professional setting"
-            fill
-            priority
-            sizes="(max-width: 980px) 100vw, 46vw"
-            src="/images/cath-watkins.png"
-          />
-        </SectionReveal>
       </section>
 
       <section className="section">
