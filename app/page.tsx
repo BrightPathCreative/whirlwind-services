@@ -32,7 +32,7 @@ export default function HomePage() {
           <SectionReveal delay={0.28}>
             <div className="button-row">
               <Link className="button button-primary" href="/contact">
-                Go to Contact Form
+                Get in Touch
               </Link>
               <Link className="button button-outline" href="/services">
                 Explore Services

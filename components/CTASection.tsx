@@ -17,7 +17,7 @@ export function CTASection({
         <p>{body}</p>
         <div className="button-row">
           <Link className="button button-light" href="/contact">
-            Go to Contact Form
+            Get in Touch
           </Link>
         </div>
       </div>
