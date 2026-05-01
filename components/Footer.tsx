@@ -1,0 +1,57 @@
+import Image from "next/image";
+import Link from "next/link";
+import { servicePages, site } from "@/lib/site-data";
+
+export function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="footer-mark" aria-hidden="true" />
+      <div className="footer-grid">
+        <div>
+          <Image
+            alt="Whirlwind Services"
+            className="footer-logo"
+            height={88}
+            src="/images/brand/logo.png"
+            width={88}
+          />
+          <p className="footer-tagline">{site.tagline}</p>
+          <p>Senior administrative and executive support across Bayside and Melbourne.</p>
+        </div>
+
+        <div>
+          <h2>Quick Links</h2>
+          <Link href="/about">About</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/faq">FAQ</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/terms">Terms</Link>
+          <Link href="/privacy">Privacy</Link>
+        </div>
+
+        <div>
+          <h2>Services</h2>
+          {servicePages.map((service) => (
+            <Link href={`/services/${service.slug}`} key={service.slug}>
+              {service.shortTitle}
+            </Link>
+          ))}
+        </div>
+
+        <div>
+          <h2>Contact</h2>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <p>Based in Brighton, Victoria.</p>
+          <a className="social-link" href={site.linkedin} rel="noreferrer" target="_blank">
+            <span className="social-badge">in</span>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <span>© 2026 Whirlwind Secretarial Services | ABN {site.abn}</span>
+        <span>Website by Bright Path Creative</span>
+      </div>
+    </footer>
+  );
+}
