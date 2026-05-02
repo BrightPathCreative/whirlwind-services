@@ -872,18 +872,14 @@ p {
   width: 68px;
 }
 
-.form-placeholder {
-  background:
-    linear-gradient(135deg, rgba(138, 191, 137, 0.2), rgba(255, 255, 255, 0.72)),
-    var(--color-light-grey);
-  border: 1px dashed rgba(6, 95, 70, 0.38);
+.contact-form-embed {
+  background: white;
+  border: 1px solid rgba(138, 191, 137, 0.22);
   border-radius: 24px;
-  display: grid;
-  gap: 1rem;
-  min-height: 520px;
-  place-items: center;
-  padding: 2rem;
-  text-align: center;
+  box-shadow: var(--shadow-soft);
+  min-height: 552px;
+  overflow: hidden;
+  padding: 0.5rem;
 }
 
 .cta-section {

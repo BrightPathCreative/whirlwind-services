@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import { MapPin } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { SectionReveal } from "@/components/SectionReveal";
@@ -46,18 +47,28 @@ export default function ContactPage() {
             </p>
           </SectionReveal>
 
-          <SectionReveal className="form-placeholder" delay={0.08}>
-            <div className="copy-stack">
-              <p className="eyebrow">Contact Form</p>
-              <h2>GHL form coming soon</h2>
-              <p>
-                The live GoHighLevel contact form will be embedded here once the form URL is
-                provided near the end of the build.
-              </p>
-            </div>
+          <SectionReveal className="contact-form-embed" delay={0.08}>
+            <iframe
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-id="Yp2xV1safuH2BNTpCQFg"
+              data-form-name="Whirlwind Services Enquiry Form"
+              data-height="552"
+              data-layout="{&quot;id&quot;:&quot;INLINE&quot;}"
+              data-layout-iframe-id="inline-Yp2xV1safuH2BNTpCQFg"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              id="inline-Yp2xV1safuH2BNTpCQFg"
+              src="https://links.brightpathcreative.com.au/widget/form/Yp2xV1safuH2BNTpCQFg"
+              style={{ width: "100%", height: "100%", border: "none", borderRadius: "12px" }}
+              title="Whirlwind Services Enquiry Form"
+            />
           </SectionReveal>
         </div>
       </section>
+      <Script src="https://links.brightpathcreative.com.au/js/form_embed.js" strategy="afterInteractive" />
     </>
   );
 }
