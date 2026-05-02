@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { servicePages, site } from "@/lib/site-data";
+import { locationPages, servicePages, site } from "@/lib/site-data";
 
 export function Footer() {
   return (
@@ -39,6 +39,16 @@ export function Footer() {
         </div>
 
         <div>
+          <h2>Service Areas</h2>
+          <Link href="/bayside-melbourne">Bayside Melbourne</Link>
+          {locationPages.map((location) => (
+            <Link href={`/locations/${location.slug}`} key={location.slug}>
+              {location.area}
+            </Link>
+          ))}
+        </div>
+
+        <div>
           <h2>Contact</h2>
           <Link href="/contact">Contact form</Link>
           <p>Based in Brighton, Victoria.</p>
@@ -50,7 +60,7 @@ export function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© 2026 Whirlwind Secretarial Services | ABN {site.abn}</span>
-        <span>
+        <span className="footer-credit">
           Website by{" "}
           <a href="https://www.brightpathcreative.com.au" rel="noreferrer" target="_blank">
             Bright Path Creative
