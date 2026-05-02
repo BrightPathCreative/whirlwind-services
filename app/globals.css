@@ -449,6 +449,65 @@ p {
   width: 280px;
 }
 
+.meet-cath-panel {
+  background: white;
+  border: 1px solid rgba(138, 191, 137, 0.22);
+  border-radius: calc(var(--radius-large) + 10px);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
+  overflow: hidden;
+  padding: clamp(1rem, 2vw, 1.35rem);
+  position: relative;
+}
+
+.meet-cath-panel::before {
+  background: url("/images/brand/brand-mark.png") center / contain no-repeat;
+  content: "";
+  height: 360px;
+  opacity: 0.05;
+  pointer-events: none;
+  position: absolute;
+  right: -6rem;
+  top: -5rem;
+  width: 360px;
+}
+
+.meet-cath-image {
+  border-radius: var(--radius-large);
+  min-height: 520px;
+  overflow: hidden;
+  position: relative;
+}
+
+.meet-cath-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.meet-cath-copy {
+  align-content: center;
+  display: grid;
+  gap: 1.15rem;
+  padding: clamp(1.25rem, 4vw, 3.5rem);
+  position: relative;
+  z-index: 1;
+}
+
+.meet-cath-highlight {
+  background: var(--color-sage-10);
+  border-left: 5px solid var(--color-sage);
+  border-radius: 0 18px 18px 0;
+  color: var(--color-emerald);
+  font-size: clamp(1rem, 1.35vw, 1.16rem);
+  font-weight: 700;
+  line-height: 1.58;
+  padding: 1rem 1.15rem;
+}
+
 .split {
   align-items: center;
   display: grid;
@@ -882,9 +941,14 @@ p {
 
   .hero,
   .split,
+  .meet-cath-panel,
   .service-block,
   .service-block:nth-child(even) {
     grid-template-columns: 1fr;
+  }
+
+  .meet-cath-image {
+    min-height: 460px;
   }
 
   .service-block:nth-child(even) .service-block-media {
@@ -914,6 +978,10 @@ p {
 
   .hero-image-shell {
     min-height: 480px;
+  }
+
+  .meet-cath-image {
+    min-height: 390px;
   }
 
   .back-to-top {

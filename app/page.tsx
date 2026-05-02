@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { SectionReveal } from "@/components/SectionReveal";
@@ -44,24 +45,32 @@ export default function HomePage() {
 
       <section className="section">
         <div className="section-inner">
-          <SectionReveal className="intro-panel narrow">
-            <p className="eyebrow">Meet Cath</p>
-            <h2>Running a business means wearing a lot of hats. Let Cath carry a few for you.</h2>
-            <p>
-              When the diary is overflowing, the inbox is a disaster, and there&apos;s an event to
-              organise before Friday, you need someone you can trust to step in and get things done.
-            </p>
-            <p>
-              Whirlwind Services is Cath Watkins, an administrator with 45 years of experience
-              supporting executives, CEOs, government ministers, and business owners across Melbourne
-              and beyond.
-            </p>
-            <p>
-              <strong>
+          <SectionReveal className="meet-cath-panel">
+            <div className="meet-cath-image">
+              <Image
+                alt="Cath Watkins seated in a bright professional setting"
+                height={1402}
+                src="/images/cath-watkins.png"
+                width={1122}
+              />
+            </div>
+            <div className="meet-cath-copy">
+              <p className="eyebrow">Meet Cath</p>
+              <h2>Running a business means wearing a lot of hats. Let Cath carry a few for you.</h2>
+              <p>
+                When the diary is overflowing, the inbox is a disaster, and there&apos;s an event to
+                organise before Friday, you need someone you can trust to step in and get things done.
+              </p>
+              <p>
+                Whirlwind Services is Cath Watkins, an administrator with 45 years of experience
+                supporting executives, CEOs, government ministers, and business owners across Melbourne
+                and beyond.
+              </p>
+              <div className="meet-cath-highlight">
                 This isn&apos;t a virtual assistant agency. There&apos;s no team of contractors or
                 off-shore support desk — just Cath.
-              </strong>
-            </p>
+              </div>
+            </div>
           </SectionReveal>
         </div>
       </section>
