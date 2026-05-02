@@ -194,7 +194,7 @@ export const servicePages = [
     subtitle: "An experienced, flexible pair of hands for whatever your business needs.",
     description:
       "Flexible, experienced administrative support for filing, accounts receivable, office process reviews, communications, and ad hoc admin.",
-    image: "/images/sections/travel-accommodation.png",
+    image: "/images/sections/organised-workspace.png",
     icon: "/images/icons/icon-headset.png",
     Icon: Headset,
     metaTitle: "General Office Services Melbourne",

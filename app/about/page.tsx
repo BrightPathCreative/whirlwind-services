@@ -29,11 +29,14 @@ export default function AboutPage() {
           </SectionReveal>
           <SectionReveal className="copy-stack" delay={0.08}>
             <h2>The Business Behind the Name</h2>
-            <p>Whirlwind Services is Cath Watkins and there&apos;s a lot behind this.</p>
+            <p>
+              Whirlwind Services is Cath Watkins. And behind that name is forty-five years of getting
+              things done.
+            </p>
             <p>
               Cath founded Whirlwind at the age of thirty. She built it into a business that served
-              some of the top five consulting firms in Melbourne as well providing pro-bono services
-              to not-for-profit agencies.
+              some of the top five consulting firms in Melbourne as well as providing pro-bono
+              services to not-for-profit agencies.
             </p>
             <p>
               Cath has once again turned to running her own business and is looking forward to

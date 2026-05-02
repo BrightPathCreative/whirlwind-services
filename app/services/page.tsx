@@ -6,6 +6,14 @@ import { SectionReveal } from "@/components/SectionReveal";
 import { createMetadata } from "@/lib/metadata";
 import { servicePages } from "@/lib/site-data";
 
+const serviceEyebrows: Record<string, string> = {
+  "executive-assistance": "Executive Support",
+  "event-management": "Event Coordination",
+  "records-database-management": "Records & Data",
+  "document-preparation-data-entry": "Documents & Data Entry",
+  "general-office-services": "Office Support"
+};
+
 export const metadata = createMetadata({
   title: "Professional Administrative Services",
   description:
@@ -29,7 +37,7 @@ export default function ServicesPage() {
           {servicePages.map((service, index) => (
             <SectionReveal className="service-block" delay={index * 0.04} key={service.slug}>
               <div className="copy-stack">
-                <p className="eyebrow">Service {index + 1}</p>
+                <p className="eyebrow">{serviceEyebrows[service.slug]}</p>
                 <h2>{service.title}</h2>
                 <p>{service.description}</p>
                 <Link className="learn-link" href={`/services/${service.slug}`}>
