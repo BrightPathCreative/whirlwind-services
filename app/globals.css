@@ -561,7 +561,8 @@ p {
 }
 
 .testimonial-card {
-  gap: 1.25rem;
+  gap: 1.4rem;
+  grid-template-columns: minmax(180px, 0.32fr) minmax(0, 1fr);
   padding: clamp(1.6rem, 4vw, 3rem);
   position: relative;
 }
@@ -581,9 +582,17 @@ p {
 .testimonial-quote {
   display: grid;
   gap: 1rem;
+  grid-column: 2;
+  grid-row: 1 / span 2;
   margin: 0;
   position: relative;
   z-index: 1;
+}
+
+.testimonial-quote p:first-child {
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.48;
 }
 
 .testimonial-quote ul {
@@ -602,6 +611,7 @@ p {
   border-top: 1px solid rgba(138, 191, 137, 0.28);
   display: grid;
   gap: 0.25rem;
+  grid-column: 1;
   padding-top: 1rem;
   position: relative;
   z-index: 1;
@@ -1000,6 +1010,7 @@ p {
   .hero,
   .split,
   .meet-cath-panel,
+  .testimonial-card,
   .service-block,
   .service-block:nth-child(even) {
     grid-template-columns: 1fr;
@@ -1007,6 +1018,12 @@ p {
 
   .meet-cath-image {
     min-height: 460px;
+  }
+
+  .testimonial-quote,
+  .testimonial-author {
+    grid-column: auto;
+    grid-row: auto;
   }
 
   .service-block:nth-child(even) .service-block-media {
