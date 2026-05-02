@@ -121,10 +121,37 @@ export default function HomePage() {
         <div className="section-inner narrow">
           <SectionReveal className="testimonial-card">
             <p className="eyebrow">Testimonials</p>
-            <h2>Client testimonials will be added here.</h2>
-            <p>
-              This section is structured and ready for approved client quotes once they are available.
-            </p>
+            <blockquote className="testimonial-quote">
+              <p>
+                Cath worked for me while working in Perth WA and I am pleased to offer this
+                testimonial for her website and recommend her highly to any of her clients.
+              </p>
+              <p>
+                As my Executive Officer, Cath provided confidential support directly to me and my
+                executive team. Cath also worked with the relevant board secretariats with regard to
+                my involvement and attendance at various meetings.
+              </p>
+              <p>
+                While working for me, Cath demonstrated her wealth of knowledge and experience in
+                working as a government sector Executive Officer, enabling me to work seamlessly on
+                the things that matter.
+              </p>
+              <p>Cath&apos;s duties included:</p>
+              <ul>
+                <li>
+                  providing administrative support, such as taking meeting minutes, circulating
+                  papers, liaising with board secretariats, and the Director General&apos;s office;
+                </li>
+                <li>facilitating my diary and papers;</li>
+                <li>co-ordinating tasks for my action; and</li>
+                <li>generally ensuring the efficient and effective flow of information.</li>
+              </ul>
+              <p>I wish Cath every success in her new business.</p>
+            </blockquote>
+            <div className="testimonial-author">
+              <strong>Niegel Graza</strong>
+              <span>Previously Deputy Director General, Industry and Economic Development, WA</span>
+            </div>
           </SectionReveal>
         </div>
       </section>

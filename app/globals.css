@@ -560,6 +560,64 @@ p {
   padding: 0;
 }
 
+.testimonial-card {
+  gap: 1.25rem;
+  padding: clamp(1.6rem, 4vw, 3rem);
+  position: relative;
+}
+
+.testimonial-card::before {
+  color: var(--color-sage);
+  content: "“";
+  font-size: clamp(4rem, 10vw, 7rem);
+  font-weight: 700;
+  line-height: 0.75;
+  opacity: 0.22;
+  position: absolute;
+  right: 1.4rem;
+  top: 1.2rem;
+}
+
+.testimonial-quote {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-quote ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.testimonial-quote li {
+  font-size: clamp(1rem, 1.35vw, 1.08rem);
+  line-height: 1.68;
+}
+
+.testimonial-author {
+  border-top: 1px solid rgba(138, 191, 137, 0.28);
+  display: grid;
+  gap: 0.25rem;
+  padding-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author strong {
+  color: var(--color-emerald);
+  font-size: 1.08rem;
+}
+
+.testimonial-author span {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 .service-card-media {
   aspect-ratio: 4 / 3;
   background: var(--color-sage-10);
