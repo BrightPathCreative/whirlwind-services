@@ -850,6 +850,28 @@ p {
   padding: clamp(1.5rem, 4vw, 3rem);
 }
 
+.thank-you-card {
+  background: white;
+  border: 1px solid rgba(138, 191, 137, 0.24);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 1.1rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  position: relative;
+}
+
+.thank-you-icon {
+  align-items: center;
+  background: var(--color-sage-10);
+  border-radius: 999px;
+  color: var(--color-emerald);
+  display: inline-flex;
+  height: 68px;
+  justify-content: center;
+  width: 68px;
+}
+
 .form-placeholder {
   background:
     linear-gradient(135deg, rgba(138, 191, 137, 0.2), rgba(255, 255, 255, 0.72)),
