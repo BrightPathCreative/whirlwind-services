@@ -50,7 +50,7 @@ export function Footer() {
 
         <div>
           <h2>Contact</h2>
-          <Link href="/contact">Contact form</Link>
+          <Link href="/contact">Get in Touch</Link>
           <p>Based in Brighton, Victoria.</p>
           <a className="social-link" href={site.linkedin} rel="noreferrer" target="_blank">
             <span className="social-badge">in</span>
