@@ -99,36 +99,37 @@ p {
 }
 
 .site-header {
-  left: 0;
-  padding: 1rem clamp(1rem, 3vw, 2rem);
-  position: fixed;
-  right: 0;
+  backdrop-filter: blur(18px);
+  background: rgba(247, 247, 245, 0.94);
+  border-bottom: 1px solid rgba(138, 191, 137, 0.2);
+  box-shadow: 0 8px 28px rgba(36, 36, 36, 0.06);
+  padding: 0 clamp(1rem, 4vw, 2rem);
+  position: sticky;
   top: 0;
   z-index: 50;
 }
 
 .navbar {
   align-items: center;
-  backdrop-filter: blur(20px);
-  background: rgba(247, 247, 245, 0.9);
-  border: 1px solid rgba(138, 191, 137, 0.22);
-  border-radius: 999px;
-  box-shadow: 0 12px 34px rgba(36, 36, 36, 0.08);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1180px;
-  padding: 0.6rem 0.75rem 0.6rem 1rem;
+  min-height: 82px;
+  padding: 0.75rem 0;
 }
 
 .nav-logo {
   align-items: center;
   display: flex;
   gap: 0.75rem;
+  min-width: fit-content;
 }
 
 .nav-logo img {
   border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 .nav-logo span {
@@ -153,7 +154,7 @@ p {
 .desktop-nav {
   align-items: center;
   display: flex;
-  gap: 1.55rem;
+  gap: clamp(1rem, 2vw, 1.8rem);
 }
 
 .desktop-nav a {
@@ -181,7 +182,7 @@ p {
 }
 
 .nav-dropdown {
-  padding: 1rem 0;
+  padding: 1.4rem 0;
   position: relative;
 }
 
@@ -223,13 +224,13 @@ p {
 
 .mobile-menu {
   background: rgba(36, 36, 36, 0.96);
-  border-radius: 28px;
+  border-radius: 0 0 24px 24px;
   color: white;
   display: grid;
   gap: 1rem;
-  margin: 0.75rem auto 0;
+  margin: 0 auto;
   max-width: 1180px;
-  padding: 1.4rem;
+  padding: 1.2rem clamp(1rem, 4vw, 1.4rem) 1.4rem;
 }
 
 .mobile-menu a {
@@ -342,8 +343,8 @@ p {
   display: grid;
   gap: clamp(2rem, 5vw, 4rem);
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
-  min-height: 100svh;
-  padding: 8rem clamp(1rem, 4vw, 2rem) 4rem;
+  min-height: calc(100svh - 82px);
+  padding: clamp(4rem, 7vw, 6rem) clamp(1rem, 4vw, 2rem) 4rem;
 }
 
 .home-hero {
@@ -1126,7 +1127,7 @@ p {
   }
 
   .hero {
-    padding-top: 7rem;
+    padding-top: 4rem;
   }
 
   .hero-image-shell {
