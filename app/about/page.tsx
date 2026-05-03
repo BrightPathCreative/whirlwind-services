@@ -83,7 +83,7 @@ export default function AboutPage() {
               easier, not to add another layer of complexity.
             </p>
             <p>
-              She hits the ground running and works the way you need her to — on-site at your
+              She hits the ground running and works the way you need her to, whether on-site at your
               premises, remotely, or a combination of both.
             </p>
             <p>

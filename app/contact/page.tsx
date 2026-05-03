@@ -33,7 +33,7 @@ export default function ContactPage() {
               width={1122}
             />
             <p>
-              There&apos;s no commitment involved in a first conversation — just a chance to talk
+              There&apos;s no commitment involved in a first conversation, just a chance to talk
               through what you need and work out whether Whirlwind can help.
             </p>
             <p>Please use the contact form and Cath will respond as soon as she can.</p>

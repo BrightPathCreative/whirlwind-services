@@ -30,7 +30,7 @@ export const servicePages = [
     slug: "executive-assistance",
     title: "Executive & Personal Assistance",
     shortTitle: "Executive Assistance",
-    h1: "Executive Assistant Services — Melbourne & Bayside",
+    h1: "Executive Assistant Services for Melbourne & Bayside",
     subtitle: "Senior support for executives, CEOs, and business owners who need a trusted right-hand person.",
     description:
       "Senior-level diary and email management, correspondence, travel arrangements, and proactive 1:1 support for executives and business owners.",

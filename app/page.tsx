@@ -25,7 +25,7 @@ export default function HomePage() {
             <h1>Experienced Administrative & Executive Support for Bayside and Melbourne</h1>
           </SectionReveal>
           <SectionReveal delay={0.16}>
-            <p>Senior administrative services — on-site or remote — across Melbourne CBD and Bayside.</p>
+            <p>Senior administrative services, on-site or remote, across Melbourne CBD and Bayside.</p>
           </SectionReveal>
           <SectionReveal delay={0.22}>
             <p className="tagline">{site.tagline}</p>
@@ -68,7 +68,7 @@ export default function HomePage() {
               </p>
               <div className="meet-cath-highlight">
                 This isn&apos;t a virtual assistant agency. There&apos;s no team of contractors or
-                off-shore support desk — just Cath.
+                off-shore support desk, just Cath.
               </div>
             </div>
           </SectionReveal>
