@@ -40,7 +40,6 @@ export function Footer() {
 
         <div>
           <h2>Service Areas</h2>
-          <Link href="/bayside-melbourne">Bayside Melbourne</Link>
           {locationPages.map((location) => (
             <Link href={`/locations/${location.slug}`} key={location.slug}>
               {location.area}

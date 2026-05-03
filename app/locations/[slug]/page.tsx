@@ -90,9 +90,6 @@ export default async function LocationPage({ params }: LocationPageProps) {
           </SectionReveal>
           <SectionReveal className="feature-card" delay={0.08}>
             <p>{location.nearby}</p>
-            <Link className="learn-link" href="/bayside-melbourne">
-              View all areas serviced <span aria-hidden="true">→</span>
-            </Link>
           </SectionReveal>
         </div>
       </section>

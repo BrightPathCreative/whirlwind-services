@@ -64,7 +64,7 @@ export function Navbar() {
 
       {isOpen ? (
         <div className="mobile-menu">
-          {[...navLinks, { label: "Bayside Melbourne", href: "/bayside-melbourne" }].map((link) => (
+          {navLinks.map((link) => (
             <Link href={link.href} key={link.href} onClick={() => setIsOpen(false)}>
               {link.label}
             </Link>
