@@ -40,6 +40,11 @@ export const servicePages = [
     metaTitle: "Executive Assistant Services Melbourne & Bayside",
     metaDescription:
       "Senior executive assistant services for CEOs, executives, and business owners across Melbourne CBD and Bayside. Diary management, travel, correspondence.",
+    supportImages: [
+      { src: "/images/services/executive-assistance.png", label: "Senior executive assistance" },
+      { src: "/images/services/diary-calendar.png", label: "Diary and calendar management" },
+      { src: "/images/services/travel.png", label: "Travel and accommodation planning" }
+    ],
     intro: [
       "There's a difference between administrative support and executive assistance and Cath sits firmly in the latter category.",
       "For over 45 years, she has worked directly with ministers, government commissioners, CEOs, and senior leaders in some of Melbourne's top consulting firms. She understands what it means to support decision-makers at the highest level: the need for absolute confidentiality, proactive thinking, and the kind of experience that means you don't need to explain everything twice.",
@@ -81,6 +86,9 @@ export const servicePages = [
     metaTitle: "Event Management & Support Services Melbourne",
     metaDescription:
       "End-to-end event coordination for meetings, conferences, and corporate events across Melbourne. Venue sourcing, catering, minutes, and follow-up.",
+    supportImages: [
+      { src: "/images/services/event-management.png", label: "Event planning and meeting support" }
+    ],
     intro: [
       "A well-run event doesn't happen by accident. It happens because someone experienced is handling the logistics, and that's exactly what Cath does well.",
       "With a background spanning government and private sector events, Cath has coordinated everything from high-profile meetings to large-scale corporate conferences.",
@@ -122,6 +130,9 @@ export const servicePages = [
     metaTitle: "Records & Database Management Services Melbourne",
     metaDescription:
       "Professional records management, data cleaning, and database organisation for Melbourne businesses.",
+    supportImages: [
+      { src: "/images/services/excel-data.png", label: "Spreadsheets, records and clean data" }
+    ],
     intro: [
       "Most businesses are sitting on a mountain of information. The problem isn't usually the data, it's what's done with it.",
       "Cath has spent years working at the intersection of administration and information management, including large-scale government data consolidation projects.",
@@ -162,6 +173,10 @@ export const servicePages = [
     metaTitle: "Document Preparation & Data Entry Services Melbourne",
     metaDescription:
       "Professional document formatting, accurate data entry, and Excel spreadsheet management for Melbourne businesses.",
+    supportImages: [
+      { src: "/images/services/document-prep.png", label: "Document preparation and formatting" },
+      { src: "/images/services/excel-data.png", label: "Accurate data entry and spreadsheet work" }
+    ],
     intro: [
       "Some tasks just need to be done accurately, quickly, and to a professional standard. That's what this is.",
       "Whether you need a document reformatted, a data-set entered and checked, or a spreadsheet built properly, Cath handles it with care and precision."
@@ -200,6 +215,9 @@ export const servicePages = [
     metaTitle: "General Office Services Melbourne",
     metaDescription:
       "Flexible, experienced administrative support for Melbourne businesses. Filing, accounts receivable, office process reviews, and ad hoc admin.",
+    supportImages: [
+      { src: "/images/services/admin-support.png", label: "Flexible office and admin support" }
+    ],
     intro: [
       "Sometimes what a business needs doesn't fit neatly into a category.",
       "Whirlwind's general office services exist for the tasks accumulating in the background, the process no one has had time to review, or the correspondence that keeps getting pushed to next week.",

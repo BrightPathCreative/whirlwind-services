@@ -12,6 +12,10 @@ type ServicePageData = {
   h1: string;
   subtitle: string;
   image: string;
+  supportImages?: {
+    src: string;
+    label: string;
+  }[];
   intro: string[];
   included: string[][];
   audience: string[];
@@ -35,6 +39,25 @@ export function ServicePage({ service }: { service: ServicePageData }) {
           </SectionReveal>
         </div>
       </section>
+
+      {service.supportImages ? (
+        <section className="section service-visual-strip-section">
+          <div className="section-inner service-visual-layout">
+            <SectionReveal className="copy-stack">
+              <p className="eyebrow">In Practice</p>
+              <h2>The details Cath can take off your plate.</h2>
+            </SectionReveal>
+            <div className="service-visual-strip">
+              {service.supportImages.map((image, index) => (
+                <SectionReveal className="service-visual-card" delay={index * 0.06} key={image.src}>
+                  <Image alt="" fill sizes="(max-width: 980px) 100vw, 33vw" src={image.src} />
+                  <span>{image.label}</span>
+                </SectionReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className="section" style={{ background: "white" }}>
         <div className="section-inner copy-stack">
