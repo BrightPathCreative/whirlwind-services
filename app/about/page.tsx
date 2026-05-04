@@ -17,8 +17,8 @@ export default function AboutPage() {
       <PageHero eyebrow="About" title="About Whirlwind Services" subtitle="The business behind the name." />
 
       <section className="section">
-        <div className="section-inner split">
-          <SectionReveal className="image-shell">
+        <div className="section-inner split cath-profile-split">
+          <SectionReveal className="image-shell cath-portrait-shell">
             <Image
               alt="Cath Watkins, founder of Whirlwind Services"
               height={1402}
