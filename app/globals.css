@@ -450,29 +450,22 @@ p {
   width: 280px;
 }
 
-.meet-cath-panel {
-  background: white;
-  border: 1px solid rgba(138, 191, 137, 0.22);
-  border-radius: calc(var(--radius-large) + 10px);
-  box-shadow: var(--shadow-soft);
-  display: grid;
-  gap: clamp(1.5rem, 4vw, 3rem);
-  grid-template-columns: minmax(210px, 0.42fr) minmax(0, 1.58fr);
-  overflow: hidden;
-  padding: clamp(1rem, 2vw, 1.35rem);
+.meet-cath-section {
+  background:
+    linear-gradient(180deg, rgba(138, 191, 137, 0.06) 0%, transparent 55%),
+    var(--color-off-white);
+  overflow: visible;
   position: relative;
 }
 
-.meet-cath-panel::before {
-  background: url("/images/brand/brand-mark.png") center / contain no-repeat;
-  content: "";
-  height: 360px;
-  opacity: 0.05;
-  pointer-events: none;
-  position: absolute;
-  right: -6rem;
-  top: -5rem;
-  width: 360px;
+.meet-cath-panel {
+  background: transparent;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  grid-template-columns: minmax(210px, 0.42fr) minmax(0, 1.58fr);
+  overflow: visible;
+  padding: clamp(0.5rem, 2vw, 1rem) 0;
+  position: relative;
 }
 
 .meet-cath-image {
@@ -497,7 +490,7 @@ p {
   align-content: center;
   display: grid;
   gap: 1.15rem;
-  padding: clamp(1.25rem, 4vw, 3.5rem) clamp(1.25rem, 4vw, 4rem) clamp(1.25rem, 4vw, 3.5rem) 0;
+  padding: clamp(0.75rem, 2vw, 1.5rem) 0 clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.5rem);
   position: relative;
   z-index: 1;
 }
