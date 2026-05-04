@@ -947,12 +947,22 @@ p {
 .contact-cath-card {
   display: grid;
   gap: 1rem;
-  margin-top: 0.8rem;
+  grid-column: 1 / -1;
+  justify-items: center;
+  justify-self: center;
+  margin-top: clamp(0.25rem, 2vw, 1rem);
+  max-width: 560px;
+  text-align: center;
 }
 
 .contact-cath-details {
   display: grid;
   gap: 0.8rem;
+  justify-items: center;
+}
+
+.contact-cath-details .social-link {
+  justify-content: center;
 }
 
 .contact-cath-name {
@@ -963,7 +973,7 @@ p {
 
 .contact-cath-image {
   border-radius: var(--radius-large);
-  justify-self: start;
+  justify-self: center;
   max-width: 210px;
   width: min(52%, 210px);
 }
