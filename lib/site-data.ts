@@ -87,7 +87,7 @@ export const servicePages = [
     metaDescription:
       "End-to-end event coordination for meetings, conferences, and corporate events across Melbourne. Venue sourcing, catering, minutes, and follow-up.",
     supportImages: [
-      { src: "/images/services/event-management.png", label: "Event planning and meeting support" }
+      { src: "/images/services/diary-calendar.png", label: "Event planning and meeting support" }
     ],
     intro: [
       "A well-run event doesn't happen by accident. It happens because someone experienced is handling the logistics, and that's exactly what Cath does well.",
@@ -174,7 +174,7 @@ export const servicePages = [
     metaDescription:
       "Professional document formatting, accurate data entry, and Excel spreadsheet management for Melbourne businesses.",
     supportImages: [
-      { src: "/images/services/document-prep.png", label: "Document preparation and formatting" },
+      { src: "/images/services/admin-support.png", label: "Document preparation and formatting" },
       { src: "/images/services/excel-data.png", label: "Accurate data entry and spreadsheet work" }
     ],
     intro: [
