@@ -45,7 +45,12 @@ export default function ServicesPage() {
                 </Link>
               </div>
               <div className="service-block-media">
-                <Image alt="" height={1696} src={service.image} width={2528} />
+                <Image
+                  alt={`${service.title} administrative support`}
+                  height={1696}
+                  src={service.image}
+                  width={2528}
+                />
               </div>
             </SectionReveal>
           ))}

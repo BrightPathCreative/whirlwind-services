@@ -35,7 +35,12 @@ export function ServicePage({ service }: { service: ServicePageData }) {
             ))}
           </SectionReveal>
           <SectionReveal className="image-shell" delay={0.08}>
-            <Image alt="" height={1696} src={service.image} width={2528} />
+            <Image
+              alt={`${service.title} administrative support`}
+              height={1696}
+              src={service.image}
+              width={2528}
+            />
           </SectionReveal>
         </div>
       </section>
@@ -50,7 +55,7 @@ export function ServicePage({ service }: { service: ServicePageData }) {
             <div className="service-visual-strip">
               {service.supportImages.map((image, index) => (
                 <SectionReveal className="service-visual-card" delay={index * 0.06} key={image.src}>
-                  <Image alt="" fill sizes="(max-width: 980px) 100vw, 33vw" src={image.src} />
+                  <Image alt={image.label} fill sizes="(max-width: 980px) 100vw, 33vw" src={image.src} />
                   <span>{image.label}</span>
                 </SectionReveal>
               ))}

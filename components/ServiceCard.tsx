@@ -14,7 +14,12 @@ export function ServiceCard({ title, description, href, icon, image }: ServiceCa
     <article className="service-card">
       {image ? (
         <div className="service-card-media">
-          <Image alt="" fill sizes="(max-width: 640px) 100vw, (max-width: 980px) 50vw, 20vw" src={image} />
+          <Image
+            alt={`${title} administrative support`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 980px) 50vw, 20vw"
+            src={image}
+          />
           <Image alt="" className="service-icon service-icon-float" height={58} src={icon} width={58} />
         </div>
       ) : (
