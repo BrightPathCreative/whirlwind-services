@@ -88,7 +88,7 @@ export default function HomePage() {
       </section>
 
       <section className="section" style={{ background: "var(--color-off-white)" }}>
-        <div className="section-inner">
+        <div className="section-inner copy-stack">
           <SectionReveal className="testimonial-card">
             <p className="eyebrow">Testimonials</p>
             <blockquote className="testimonial-quote">
@@ -110,6 +110,30 @@ export default function HomePage() {
             <div className="testimonial-author">
               <strong>Niegel Graza</strong>
               <span>Previously Deputy Director General, Industry and Economic Development, WA</span>
+            </div>
+          </SectionReveal>
+          <SectionReveal className="testimonial-card" delay={0.08}>
+            <p aria-hidden="true" className="eyebrow" style={{ visibility: "hidden" }}>
+              Testimonials
+            </p>
+            <blockquote className="testimonial-quote">
+              <p>
+                I worked with Cath Watkins during my time as Deputy Director General at the
+                Department of Communities in Western Australia, where she provided executive support
+                in a busy and often fast-moving environment. Cath is a warm, personable and genuinely
+                kind colleague who brings a positive attitude to her work and to the people around
+                her.
+              </p>
+              <p>
+                She was consistently helpful, approachable and willing to assist with day-to-day
+                administrative needs, often juggling competing demands with good humour. Cath&apos;s
+                friendly manner and commitment to supporting the team contributed to a constructive
+                and collegial working environment.
+              </p>
+            </blockquote>
+            <div className="testimonial-author">
+              <strong>Rachael Green</strong>
+              <span>Previously Deputy Director General, Communities WA (now retired)</span>
             </div>
           </SectionReveal>
         </div>
