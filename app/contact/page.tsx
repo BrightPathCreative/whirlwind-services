@@ -6,7 +6,7 @@ import { createMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site-data";
 
 export const metadata = createMetadata({
-  title: "Contact Whirlwind Secretarial Services",
+  title: "Contact Whirlwind Services",
   description:
     "Get in touch with Cath Watkins at Whirlwind Services for executive and administrative support across Melbourne CBD and Bayside.",
   path: "/contact"

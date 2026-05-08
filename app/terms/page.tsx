@@ -3,7 +3,7 @@ import { createMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site-data";
 
 const sections = [
-  ["Introduction", "These Terms of Service govern the engagement of Whirlwind Secretarial Services (ABN 44 233 892 479), operated by Cath Watkins. By engaging our services, the Client agrees to the terms outlined below."],
+  ["Introduction", "These Terms of Service govern the engagement of Whirlwind Services (ABN 44 233 892 479), operated by Cath Watkins. By engaging our services, the Client agrees to the terms outlined below."],
   ["Services", "Whirlwind provides professional executive assistance, event management and support, records and database management, document preparation and data entry, and general office services."],
   ["Engagement & Pricing", "All services are quoted based on the scope, complexity, and duration of the engagement. Pricing may be structured as a daily rate, project-based fee, or hourly rate."],
   ["Minimum Fee & Cancellation", "If services are not required upon arrival, or if the engagement is cut short on the day, a minimum fee of $300 AUD will apply for that day."],
@@ -15,13 +15,13 @@ const sections = [
   ["Termination", "Either party may terminate an engagement by providing reasonable written notice. Any work completed up to the date of termination will be invoiced and payable."],
   ["Governing Law", "These Terms of Service are governed by the laws of the State of Victoria, Australia."],
   ["Changes to These Terms", "Whirlwind may update these Terms of Service from time to time. Any changes will be posted on this page."],
-  ["Contact", "Cath Watkins | Whirlwind Secretarial Services | Please use the website contact form."]
+  ["Contact", "Cath Watkins | Whirlwind Services | Please use the website contact form."]
 ];
 
 export const metadata = createMetadata({
   title: "Terms of Service",
   description:
-    "Terms of Service for Whirlwind Secretarial Services. Engagement terms, pricing, cancellation policy, and confidentiality.",
+    "Terms of Service for Whirlwind Services. Engagement terms, pricing, cancellation policy, and confidentiality.",
   path: "/terms"
 });
 

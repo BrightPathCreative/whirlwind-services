@@ -58,7 +58,7 @@ export function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2026 Whirlwind Secretarial Services | ABN {site.abn}</span>
+        <span>© 2026 Whirlwind Services | ABN {site.abn}</span>
         <span className="footer-credit">
           Website by{" "}
           <a href="https://www.brightpathcreative.com.au" rel="noreferrer" target="_blank">

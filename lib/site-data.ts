@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 export const site = {
-  name: "Whirlwind Secretarial Services",
+  name: "Whirlwind Services",
   shortName: "Whirlwind Services",
   domain: "https://whirlwindservices.com.au",
   linkedin: "https://www.linkedin.com/in/cath-watkins-730329242/",
@@ -268,7 +268,7 @@ export const trustPoints = [
 ];
 
 export const globalFaqs = [
-  ["What services does Whirlwind Secretarial Services offer?", "Whirlwind offers professional executive and administrative support services, including executive assistance, event management and co-ordination, records and database management, document preparation and data entry, and general office services."],
+  ["What services does Whirlwind Services offer?", "Whirlwind offers professional executive and administrative support services, including executive assistance, event management and co-ordination, records and database management, document preparation and data entry, and general office services."],
   ["Do you work on-site or remotely?", "Both. Cath works on-site at clients' premises across Melbourne CBD and Bayside Melbourne, approximately within a 10km radius of Brighton. She also works remotely for clients anywhere."],
   ["What areas do you service?", "Whirlwind's primary service area is Melbourne CBD and Bayside Melbourne, including Brighton, Hampton, Sandringham, Bentleigh, Elsternwick, St Kilda, and surrounding suburbs. Travel outside this area is available at an additional cost."],
   ["How much does Whirlwind charge?", "Pricing is based on the scope, complexity, and duration of the engagement. Daily rates, project-based pricing, and hourly rates are available depending on the nature of the work."],
@@ -288,9 +288,9 @@ export const locationPages = [
     nearby: "Hampton, Elwood, Elsternwick, Sandringham, and the wider Bayside area",
     metaTitle: "Executive Support Services Brighton",
     metaDescription:
-      "Local executive and administrative support in Brighton from Whirlwind Secretarial Services. On-site or remote support from Cath Watkins.",
+      "Local executive and administrative support in Brighton from Whirlwind Services. On-site or remote support from Cath Watkins.",
     intro:
-      "Whirlwind Secretarial Services is based in Brighton, making it especially practical for local businesses, clinics, consultants, community organisations, and professional offices that need senior support close by.",
+      "Whirlwind Services is based in Brighton, making it especially practical for local businesses, clinics, consultants, community organisations, and professional offices that need senior support close by.",
     localFit:
       "For Brighton businesses, proximity matters. Cath can work on-site for time-sensitive admin, diary support, meetings, document preparation, event coordination, or records projects, while also handling ongoing work remotely when that is more efficient.",
     image: "/images/sections/melbourne-bayside.png"
@@ -330,7 +330,7 @@ export const locationPages = [
     nearby: "Brighton, Elsternwick, Melbourne CBD, South Melbourne, and Bayside",
     metaTitle: "Executive & Admin Support St Kilda and Elwood",
     metaDescription:
-      "Flexible executive and administrative support for St Kilda and Elwood businesses from Whirlwind Secretarial Services.",
+      "Flexible executive and administrative support for St Kilda and Elwood businesses from Whirlwind Services.",
     intro:
       "Whirlwind supports St Kilda and Elwood businesses that need experienced administrative help without the overhead of a full-time executive assistant or office manager.",
     localFit:

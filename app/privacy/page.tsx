@@ -3,7 +3,7 @@ import { createMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site-data";
 
 const sections = [
-  ["Introduction", "Whirlwind Secretarial Services is committed to protecting your personal information in accordance with the Privacy Act 1988 (Cth) and the Australian Privacy Principles."],
+  ["Introduction", "Whirlwind Services is committed to protecting your personal information in accordance with the Privacy Act 1988 (Cth) and the Australian Privacy Principles."],
   ["What Personal Information We Collect", "We may collect your name and contact details, business name and position, information provided during service delivery, payment and invoicing details, and any other information you choose to provide."],
   ["How We Collect Information", "We collect information directly from you via phone, email, the website contact form, or during service delivery, and from third parties where you have been referred to us."],
   ["Why We Collect Information", "We collect information to provide services, communicate with you, issue invoices, respond to enquiries, improve our website, and comply with legal obligations."],
@@ -16,20 +16,20 @@ const sections = [
   ["Data Breaches", "In the event of a data breach likely to cause serious harm, we will notify affected individuals and the OAIC as required."],
   ["Complaints", "If you have a privacy concern, please contact us. We will respond within 30 days."],
   ["Changes to This Policy", "We may update this policy from time to time. Updates will be published on this page."],
-  ["Contact", "Cath Watkins | Whirlwind Secretarial Services | Please use the website contact form."]
+  ["Contact", "Cath Watkins | Whirlwind Services | Please use the website contact form."]
 ];
 
 export const metadata = createMetadata({
   title: "Privacy Policy",
   description:
-    "Privacy Policy for Whirlwind Secretarial Services. How we collect, use, and protect your personal information.",
+    "Privacy Policy for Whirlwind Services. How we collect, use, and protect your personal information.",
   path: "/privacy"
 });
 
 export default function PrivacyPage() {
   return (
     <>
-      <PageHero eyebrow="Legal" title="Privacy Policy" subtitle={`Whirlwind Secretarial Services | ABN ${site.abn} | Last updated: April 2026`} />
+      <PageHero eyebrow="Legal" title="Privacy Policy" subtitle={`Whirlwind Services | ABN ${site.abn} | Last updated: April 2026`} />
       <section className="section">
         <div className="section-inner narrow legal-content">
           {sections.map(([heading, text], index) => (

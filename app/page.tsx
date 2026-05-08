@@ -19,7 +19,7 @@ export default function HomePage() {
       <section className="hero home-hero">
         <div className="hero-content">
           <SectionReveal>
-            <p className="eyebrow">Whirlwind Secretarial Services</p>
+            <p className="eyebrow">Whirlwind Services</p>
           </SectionReveal>
           <SectionReveal delay={0.08}>
             <h1>Experienced Administrative & Executive Support for Bayside and Melbourne</h1>

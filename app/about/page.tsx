@@ -7,7 +7,7 @@ import { createMetadata } from "@/lib/metadata";
 export const metadata = createMetadata({
   title: "About Cath Watkins",
   description:
-    "Meet Cath Watkins, founder of Whirlwind Secretarial Services and a senior administrator with 45 years of experience.",
+    "Meet Cath Watkins, founder of Whirlwind Services and a senior administrator with 45 years of experience.",
   path: "/about"
 });
 
