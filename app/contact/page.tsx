@@ -38,16 +38,16 @@ export default function ContactPage() {
                 data-activation-value=""
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
-                data-form-id="Yp2xV1safuH2BNTpCQFg"
+                data-form-id="7jDfRPbvDGMRk96GzEQX"
                 data-form-name="Whirlwind Services Enquiry Form"
-                data-height="552"
+                data-height="467"
                 data-layout="{&quot;id&quot;:&quot;INLINE&quot;}"
-                data-layout-iframe-id="inline-Yp2xV1safuH2BNTpCQFg"
+                data-layout-iframe-id="inline-7jDfRPbvDGMRk96GzEQX"
                 data-trigger-type="alwaysShow"
                 data-trigger-value=""
-                id="inline-Yp2xV1safuH2BNTpCQFg"
-                src="https://links.brightpathcreative.com.au/widget/form/Yp2xV1safuH2BNTpCQFg"
-                style={{ width: "100%", height: "100%", border: "none", borderRadius: "18px" }}
+                id="inline-7jDfRPbvDGMRk96GzEQX"
+                src="https://links.brightpathcreative.com.au/widget/form/7jDfRPbvDGMRk96GzEQX"
+                style={{ width: "100%", height: "100%", border: "none", borderRadius: "12px" }}
                 title="Whirlwind Services Enquiry Form"
               />
             </div>

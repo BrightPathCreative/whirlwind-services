@@ -1000,13 +1000,13 @@ p {
 .contact-form-embed {
   border: 1px solid rgba(138, 191, 137, 0.22);
   border-radius: var(--radius-medium);
-  min-height: 552px;
+  min-height: 467px;
   overflow: hidden;
 }
 
 .contact-form-embed iframe {
   display: block;
-  min-height: 552px;
+  min-height: 467px;
 }
 
 .contact-form-card {
